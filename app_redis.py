@@ -47,7 +47,7 @@ load_dotenv()
 
 
 # Redis 서버의 URL을 지정합니다.
-REDIS_URL = "redis://localhost:6379/0"
+REDIS_URL = "redis://:ssacgang@34.64.92.32:6379/0"
 
 # LANGCHAIN_TRACING_V2 환경 변수를 "true"로 설정합니다.
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
